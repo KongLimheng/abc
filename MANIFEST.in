@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include online_shop *.css
+recursive-include online_shop *.csv
+recursive-include online_shop *.html
+recursive-include online_shop *.ico
+recursive-include online_shop *.js
+recursive-include online_shop *.json
+recursive-include online_shop *.md
+recursive-include online_shop *.png
+recursive-include online_shop *.py
+recursive-include online_shop *.svg
+recursive-include online_shop *.txt
+recursive-exclude online_shop *.pyc

@@ -1,0 +1,15 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Category",
+  "enabled": 1,
+  "modified": "2021-08-29 17:37:04.697485",
+  "name": "Category-Form",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "frappe.ui.form.on('Category', {\n\trefresh(frm) {\n\t\tconsole.log(frm)\n\t}\n})",
+  "view": "Form"
+ }
+]
